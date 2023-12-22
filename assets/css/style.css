@@ -54,8 +54,8 @@ p {
     margin-bottom: 25px;
 }
 .hero img {/*this selector is a descendent selector, and it only affects the image within the element*/
-    width: 1500px;
-    height: 800px;
+    width: 100%; /*sets width to be 100% of container*/
+    height: auto; /*automatically adjusts elements height*/
     display: block;
     margin: 0 auto;
 }
