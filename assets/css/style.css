@@ -1,10 +1,10 @@
-* {
+* {/*asterik applies to everything in html file*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body {/*specifies background color of the body*/
     background-color: #d9dcd6;
 }
 
@@ -49,14 +49,15 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero{
+/*created two classes*/
+.hero{/*this class selector focuses on the structure between the tags*/
     margin-bottom: 25px;
 }
-.hero img {
-    width: 100%;
-    height: auto;
+.hero img {/*this selector is a descendent selector, and it only affects the image within the element*/
+    width: 1500px;
+    height: 800px;
     display: block;
+    margin: 0 auto;
 }
 
 .float-left {
